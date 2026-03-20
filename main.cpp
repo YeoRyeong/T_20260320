@@ -9,17 +9,14 @@ using namespace std; // namespace 클래스보다 큰 개념
 
 int main()
 {
-	// UEngine* MyEngeie = new UEngine();
-	// MyEngeie->Run();
-	// delete MyEngeie;
+	AWildBoar WildBoar[10];
+	AGoblin Goblin[10];
+	ASlime Slime[10];
 
-	AWildBoar WildBoar;
-	AGoblin Goblin;
-	ASlime Slime;
-
-	WildBoar.Move();
-	Goblin.Move();
-	Slime.Move();
+	
+	WildBoar[0].Move();
+	Goblin[0].Move();
+	Slime[0].Move();
 
 	return 0;
 }
