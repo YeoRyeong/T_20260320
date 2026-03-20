@@ -1,7 +1,8 @@
 #pragma once
 #include "Monster.h"
 
-class ABoar :public AMonster
+class ABoar : public AMonster
+
 {
 public:
 	ABoar();

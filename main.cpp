@@ -1,15 +1,14 @@
 #include<iostream>
-#include"World.h"
+#include"Engine.h"
 
-using namespace std;
+using namespace std; // namespace 클래스보다 큰 개념
 
 int main()
 {
-	UWorld Move;
-	int Key = 0;
+	UEngine* MyEngeie = new UEngine();
+	MyEngeie->Run();
+	delete MyEngeie;
 
-	Move.Mosters->IsMove(1, 1, 0);
-	//Move.Players->IsMove(2, 0);
-	
+
 	return 0;
 }

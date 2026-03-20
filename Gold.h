@@ -1,7 +1,6 @@
 #pragma once
-#include "Item.h"
 
-class UGold : public AItem
+class UGold
 {
 public:
 	UGold();
