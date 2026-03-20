@@ -36,7 +36,7 @@
     <ClCompile Include="Item.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Boar.cpp">
+    <ClCompile Include="WildBoar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Goblin.cpp">
@@ -68,7 +68,7 @@
     <ClInclude Include="Item.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Boar.h">
+    <ClInclude Include="WildBoar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Goblin.h">
