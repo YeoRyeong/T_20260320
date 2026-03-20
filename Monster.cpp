@@ -14,9 +14,28 @@ AMonster::~AMonster()
 {
 }
 
-void AMonster::IsMove(int X, int Y)
+void AMonster::IsMove(int Key, int X, int Y)
 {
-	std::cout << "X : " << X << "/" << "Y : " << Y << " 움직인다." << std::endl;
+	if (Key == 1) {
+		this->X = 1;
+		std::cout << "앞으로 한칸" << std::endl;
+	}
+
+	if (Key == 2) {
+		this->X = -1;
+		std::cout << "뒤로 한칸" << std::endl;
+	}
+
+	if (Key == 3) {
+		this->Y = -1;
+		std::cout << "왼쪽으로 한칸" << std::endl;
+	}
+
+	if (Key == 4) {
+		this->Y = 1;
+		std::cout << "오른쪽으로 한칸" << std::endl;
+	}
+	//std::cout << "X : " << X << "\t" << "Y : " << Y << " 움직인다." << std::endl;
 }
 
 void AMonster::Attack()

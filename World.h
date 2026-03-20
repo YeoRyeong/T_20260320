@@ -8,7 +8,7 @@ public:
 	UWorld();
 	~UWorld();
 
-	AMonster* Moster;
-	APlayer* Player;
+	AMonster* Mosters;
+	APlayer* Players;
 };
 

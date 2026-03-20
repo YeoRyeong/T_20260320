@@ -9,7 +9,7 @@ public:
 
 	int Gold;
 
-	void IsMove();
+	void IsMove(int Key, int X, int Y);
 	void Attack();
 };
 

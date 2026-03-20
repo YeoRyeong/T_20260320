@@ -5,9 +5,11 @@ using namespace std;
 
 int main()
 {
-	AMonster Monster;
+	UWorld Move;
+	int Key = 0;
 
-	Monster.IsMove(1, 0);
+	Move.Mosters->IsMove(1, 1, 0);
+	//Move.Players->IsMove(2, 0);
 	
 	return 0;
 }
