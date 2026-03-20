@@ -8,5 +8,6 @@ public:
 	AWildBoar();
 	~AWildBoar();
 
+	void Move();
 };
 

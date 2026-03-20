@@ -1,4 +1,5 @@
 #include "Monster.h"
+#include<iostream>
 
 AMonster::AMonster()
 {
@@ -19,4 +20,9 @@ void AMonster::Attack()
 
 void AMonster::Drop()
 {
+}
+
+void AMonster::Move()
+{
+	std::cout << "AMonster::" << std::endl;
 }

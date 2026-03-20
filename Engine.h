@@ -18,6 +18,7 @@ public:
 
 	UWorld* World;
 
+private:
 	bool bIsRunning;
 };
 

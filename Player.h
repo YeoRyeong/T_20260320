@@ -11,7 +11,7 @@ public:
 	void Attack();
 	void Collect();
 	void Die();
-
+private:
 	int Gold;
 };
 
